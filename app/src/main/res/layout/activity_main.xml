@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="HITUNG BMI"
+        android:textColor="@color/black"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MASUKKAN BERAT BADAN (KG)"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:id="@+id/editBerat"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MASUKKAN TINGGI BADAN (CM)"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/editTinggi"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THREAD"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THREAD + HANDLER"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmii"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasil"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
